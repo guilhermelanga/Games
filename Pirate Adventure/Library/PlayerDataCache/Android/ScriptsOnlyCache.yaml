@@ -31,7 +31,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -40,10 +39,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -108,27 +105,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12808}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12838}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 13736}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 14818}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15168}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,57 +204,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12490}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12684}
+      Script: {instanceID: 12492}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12686}
     - Class: 114
-      Script: {instanceID: 12808}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 12838}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 13736}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 13342}
     - Class: 114
-      Script: {instanceID: 14592}
+      Script: {instanceID: 13442}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 13490}
     - Class: 114
-      Script: {instanceID: 15046}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 15078}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 34616}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 69398}
+      Script: {instanceID: 14604}
     - Class: 114
-      Script: {instanceID: 185624}
+      Script: {instanceID: 14818}
     - Class: 114
-      Script: {instanceID: 206608}
+      Script: {instanceID: 15060}
     - Class: 114
-      Script: {instanceID: 262360}
+      Script: {instanceID: 15092}
     - Class: 114
-      Script: {instanceID: 321412}
+      Script: {instanceID: 15168}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -337,6 +334,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0a01ba3efe76c8d5b6a97dabf39d9a11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Move_Pearl
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -537,6 +540,18 @@ ScriptsOnlyBuild:
     className: Pink
   - hash:
       serializedVersion: 2
+      Hash: 6be6d4f7227546fbcad6b3919bd53cbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Chest
+  - hash:
+      serializedVersion: 2
+      Hash: 3f96943b391c82bb784a01099fc2c843
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroy_Barrel
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -603,6 +618,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 7b4d0d9f1336811e93b54461a0213932
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Move_Fish
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -616,9 +637,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Key
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroy_Pearl
   - hash:
       serializedVersion: 2
       Hash: e5c56be0d6d5dea7ef805a7fc03990ba
@@ -753,6 +786,12 @@ ScriptsOnlyBuild:
     className: CameraFollow
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Open_Chest
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -871,50 +910,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0a01ba3efe76c8d5b6a97dabf39d9a11
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Move_Pearl
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Destroy_Pearl
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Key
-  - hash:
-      serializedVersion: 2
-      Hash: 6be6d4f7227546fbcad6b3919bd53cbf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Chest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Open_Chest
-  - hash:
-      serializedVersion: 2
-      Hash: 3f96943b391c82bb784a01099fc2c843
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Destroy_Barrel
-  - hash:
-      serializedVersion: 2
-      Hash: 7b4d0d9f1336811e93b54461a0213932
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Move_Fish
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/guilh/Desktop/Pirate Adventure/teste.apk
+  playerPath: C:/Users/guilh/Desktop/Games/Pirate Adventure/PirateAdventure.apk
